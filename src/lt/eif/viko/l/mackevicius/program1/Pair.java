@@ -1,8 +1,8 @@
 package lt.eif.viko.l.mackevicius.program1;
 
 public class Pair<K, V> {
-    private K first;
-    private V second;
+    private final K first;
+    private final V second;
 
     public Pair(K first, V second) {
 
@@ -19,11 +19,4 @@ public class Pair<K, V> {
         return second;
     }
 
-    public void setFirst(K first) {
-        this.first = first;
-    }
-
-    public void setSecond(V second) {
-        this.second = second;
-    }
 }

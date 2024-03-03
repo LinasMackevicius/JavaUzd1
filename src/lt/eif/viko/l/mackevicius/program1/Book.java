@@ -14,13 +14,4 @@ class Book {
     public String getBookTitle() {
         return bookInfo.getSecond();
     }
-
-    public void setBookId(int bookId) {
-        bookInfo.setFirst(bookId);
-    }
-
-    public void setBookTitle(String bookTitle) {
-        bookInfo.setSecond(bookTitle);
-    }
-
 }
