@@ -22,4 +22,5 @@ class Book {
     public void setBookTitle(String bookTitle) {
         bookInfo.setSecond(bookTitle);
     }
+
 }

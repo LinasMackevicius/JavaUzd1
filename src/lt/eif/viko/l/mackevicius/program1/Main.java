@@ -1,37 +1,5 @@
 package lt.eif.viko.l.mackevicius.program1;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-public class Pair<K, V> {
-    private K first;
-    private V second;
-
-    public Pair(K first, V second) {
-
-        this.first = first;
-
-        this.second = second;
-    }
-
-    public K getFirst() {
-        return first;
-    }
-
-    public V getSecond() {
-        return second;
-    }
-
-    public void setFirst(K first) {
-        this.first = first;
-    }
-
-    public void setSecond(V second) {
-        this.second = second;
-    }
-
+public class Main {
     public static void main(String[] args) {
 
         Book book1 = new Book(1, "Something in a way");
@@ -60,4 +28,7 @@ public class Pair<K, V> {
 
     }
 }
+
+
+
 
